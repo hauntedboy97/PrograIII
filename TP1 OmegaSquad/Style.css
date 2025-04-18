@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: grey;
+    margin: 0;
+    color: white;
+}
+
+header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 0.5em;
+}
+
+footer .container {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a {
+    margin: 0;
+    padding: 0;
+}
+
+footer #cop {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    background-image: linear-gradient(0deg, black, black),
+    url("Media/asd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.about-us .container {
+    text-align: center;
+    padding: 80px 12px;
+}
+
+.intro-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    background-image: linear-gradient(0deg, black, black),
+    url("Media/asd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+h2 {
+    font-size: 2.7em;
+}
+h3 {
+    font-size: 2em;
+}
+p {
+    font-size: 1.25em;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.w-we-do {
+    background-color: bisque;
+    color: black;
+    text-align: center;
+}
+
+.w-we-do .container{
+    padding: 150px 12px;
+}
+
+.w-we-do h2 {
+    margin-top: 0;
+}
+
+.w-we-do p {
+}
+
+.w-we-do .card {
+    color: white;
+    background-position: center center;
+    background-size: cover;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.card:first-child {
+    background-image: linear-gradient(0deg, black, black),
+    url("Media/asd.jpg");
+
+}
+
+.card:nth-child(2) {
+    background-image: linear-gradient(0deg, black, black),
+    url("Media/asd.jpg");
+}
+
+.card:last-child {
+    background-image: linear-gradient(0deg, black, black),
+    url("Media/asd.jpg");
+}
