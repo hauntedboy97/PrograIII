@@ -10,6 +10,7 @@
         <header>
             <div class="container">
                 <p class="logo">Omega Squad</p>
+                <hr>
                 <nav>
                     <a class="indice" href="index.html">Inicio</a>
                     <a class="indice" href="services.html">Servicios</a>
@@ -21,40 +22,41 @@
         <main>
             <section class="contact">
                 <form id="form" action="" method="POST">
-                    <label for="name">Nombre: 
-                        <input type="text" name="name" id="name" required placeholder="Apellido Nombre">
-                    </label>
-                    <label for="email">Email: 
-                        <input type="email" name="email" id="email" required placeholder="email123@hotmail.com">
-                    </label>
-                    <label for="phone">Telefono: 
-                        <input type="number" name="phone" id="phone" required placeholder="2913452345">
-                    </label>
-                    <label for="idea">Comentarios: 
-                        <textarea name="idea" id="idea"></textarea>
+                    <fieldset>
+                        <label for="name">Nombre: 
+                            <input type="text" name="name" id="name" required placeholder="Apellido Nombre" />
+                        </label>
+                        <label for="email">Email: 
+                            <input type="email" name="email" id="email" required placeholder="email123@hotmail.com" />
+                        </label>
+                        <label for="phone">Teléfono: 
+                            <input type="number" name="phone" id="phone" required placeholder="2913452345" />
+                        </label>
+                    </fieldset>
+                    <label for="idea">Dejanos tu idea: 
+                        <textarea name="idea" id="idea" placeholder="Escribí tu mensaje aquí..."></textarea>
                     </label>
                     <label for="accept">
-                        <input type="checkbox" name="accept" id="accept" required> Acepto terminos y condiciones.
+                        <input type="checkbox" name="accept" id="accept" required />
+                        Acepto términos y condiciones.
                     </label>
-                    <label for="enviar">
+                    <div class="button-group">
                         <button type="submit">Enviar</button>
                         <button type="reset">Limpiar</button>
-                    </label>
+                    </div>
                 </form>
             </section>
         </main>
-¿            <footer>
-                <div class="container">
-                    <h3>Encontranos tambien en: </h3>
-                    <nav>
-                        <a href="http://instagram.com/page"><p>Instagram</p></a>
-                        <a href="http://linkedin.com/page"><p>LinkedIn</p></a>
-                        <a href="wsp.com"><p>Whatsapp</p></a>
-                        <p id="#cop">&copy Todos los derechos reservados</p>
-                    </nav>
-                </div>
-            </footer>
+        <footer>
+            <div class="container">
+                <h3>Encontranos tambien en: </h3>
+                <nav>
+                    <a href="http://instagram.com/page"><p>Instagram</p></a>
+                    <a href="http://linkedin.com/page"><p>LinkedIn</p></a>
+                    <a href="wsp.com"><p>Whatsapp</p></a>
+                </nav>
+                <p id="#cop">&copy Todos los derechos reservados</p>
+            </div>
+        </footer>
     </body>
 </html>
-
-
