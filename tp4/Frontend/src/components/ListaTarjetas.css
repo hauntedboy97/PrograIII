@@ -1,0 +1,26 @@
+.lista-tarjetas-contenedor {
+  margin: 30px;
+  text-align: center;
+}
+
+.lista-tarjetas-contenedor h2 {
+  color: #a8a8a8;
+  font-size: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lista-tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px; 
+}
+
+.lista-tarjetas-mensaje {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.2em;
+  color: #777;
+}

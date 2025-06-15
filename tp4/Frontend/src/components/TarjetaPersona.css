@@ -1,0 +1,56 @@
+.tarjeta-persona {
+  
+  border: 1px solid #e0e0e0; 
+  border-radius: 12px; 
+  padding: 20px; 
+  margin: 15px; 
+  width: 280px; 
+  min-height: 180px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box; 
+
+
+  background: linear-gradient(135deg, #f7f9fc 0%, #e0e6ed 100%); 
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12); 
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+
+
+.tarjeta-persona:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18); 
+}
+
+
+.tarjeta-persona h3 {
+  color: #2c3e50; 
+  margin-top: 0;
+  margin-bottom: 12px; 
+  font-size: 1.5em; 
+  font-weight: 700; 
+  text-align: center;
+  border-bottom: 2px solid #a8dadc; 
+  padding-bottom: 8px;
+}
+
+.tarjeta-persona p {
+  margin: 8px 0; 
+  color: #4a6572; 
+  font-size: 1em; 
+  line-height: 1.5; 
+}
+
+.tarjeta-persona strong {
+  color: #34495e; 
+  font-weight: 600; 
+}
+
+
+.tarjeta-persona.no-data {
+  text-align: center;
+  color: #777;
+  font-style: italic;
+  padding: 20px;
+}

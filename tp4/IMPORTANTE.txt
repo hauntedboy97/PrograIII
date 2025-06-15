@@ -1,0 +1,4 @@
+IMPORTANTE: Por si acaso, instalar la la dependencia concurrently para poder ejecutar sin problemas.
+
+luego de instalar las dependencias correspondientes, ejecutar desde la carpeta backend utilizando el comando "npm start"
+
